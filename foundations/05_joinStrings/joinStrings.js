@@ -16,7 +16,7 @@ const birthYear = 1947;
 const fullName = firstName.concat(" ", lastName);
 const age = thisYear - birthYear;
 
-const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 
 
 
