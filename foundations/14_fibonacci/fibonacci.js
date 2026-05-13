@@ -1,6 +1,10 @@
 let cache = { 0: 0, 1: 1 };
 
 const fibonacci = function (n) {
+    if (n < 0) {
+        return "OOPS";
+    }
+
     if (n in cache) {
         return cache[n];
     }
